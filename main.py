@@ -17,6 +17,19 @@ def suma(a,b):
 def resta(a,b):
     print(f'El resultado es: {a - b}')
 
+    '''
+    Comentario de varias lineas en
+    python
+    '''
+def tipos():
+    a = 10
+    b = 12.4
+    t = 'hola'
+    v = True
+    print(int(a))
+    print(float(b))
+    print(str(t))
+    print(bool(v))
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -24,4 +37,5 @@ if __name__ == '__main__':
     suma(5,8)
     resta(10,8)
     mensaje('Edson Fernando', 'Ventura', 'Oropeza')
+    tipos()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
