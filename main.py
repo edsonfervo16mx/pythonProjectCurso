@@ -31,8 +31,21 @@ def tipos():
     print(str(t))
     print(bool(v))
 
+def validarEdad(edad):
+    if edad >= 18:
+        print('Eres mayor de edad')
+    else:
+        print('Eres menor de edad')
 
-    
+def iterar(n):
+    contador = 0
+    while contador <= n:
+        print(f'Valor : {contador}')
+        contador = contador+1
+
+def iterarWithCicloFor():
+    for i in [0,1,2]:
+        print(f'Paso {i}')
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -41,4 +54,9 @@ if __name__ == '__main__':
     resta(10,8)
     mensaje('Edson Fernando', 'Ventura', 'Oropeza')
     tipos()
+    validarEdad(19)
+    iterar(5)
+    iterarWithCicloFor()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
