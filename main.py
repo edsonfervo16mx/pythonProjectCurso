@@ -47,16 +47,24 @@ def iterarWithCicloFor():
     for i in [0,1,2]:
         print(f'Paso {i}')
 
+def iterarForWithRange():
+    for i in range(0,11):
+        print(i)
+def imprimirMensaje(t1,t2):
+    print('Hola ',t1, 'feliz cumple ', t2)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm edsonfer')
-    suma(5,8)
-    resta(10,8)
-    mensaje('Edson Fernando', 'Ventura', 'Oropeza')
-    tipos()
-    validarEdad(19)
-    iterar(5)
-    iterarWithCicloFor()
+    #print_hi('PyCharm edsonfer')
+    #suma(5,8)
+    #resta(10,8)
+    #mensaje('Edson Fernando', 'Ventura', 'Oropeza')
+    #tipos()
+    #validarEdad(19)
+    #iterar(5)
+    #iterarWithCicloFor()
+    #iterarForWithRange()
+    imprimirMensaje('Edson',29)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
